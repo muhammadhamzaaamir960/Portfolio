@@ -57,8 +57,7 @@ function Projects() {
      </div>
 
      <div className=' flex justify-center items-center my-16 '>
-      <button className=' rounded-xl shrink-0 font-medium hover:bg-indigo-500 hover:duration-500 hover:delay-100 bg-indigo-400 px-4 py-1 shadow-xl drop-shadow-xl '>See more projects -&gt;
-      </button>
+      <button className=' rounded-xl shrink-0 font-medium hover:bg-indigo-500 hover:duration-500 hover:delay-100 bg-indigo-400 px-4 py-1 shadow-xl drop-shadow-xl '>See more projects</button>
      </div>
     </section>
   )
