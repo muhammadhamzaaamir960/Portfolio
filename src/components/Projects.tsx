@@ -14,9 +14,9 @@ const lato = Lato({
 
 function Projects() {
   return (
-    <section className='md:min-h-screen min-h-[800px]  w-full bg-white flex flex-col'>
+    <section  className='md:min-h-screen min-h-[800px]  w-full bg-white flex flex-col'>
 
-     <div className='flex justify-center items-center'>
+     <div id='projects' className='flex justify-center items-center'>
       <h2 className={`${lato.className} border-b-4  border-indigo-500 text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl pb-2 sm:pb-4 mt-4`}>Projects</h2>
      </div>
 

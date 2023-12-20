@@ -18,9 +18,9 @@ const lob = Lobster({
 
 function Skills() {
   return (
-    <section className='min-h-[400px] w-full bg-gray-100 flex flex-col '>
+    <section  className='min-h-[400px] w-full bg-gray-100 flex flex-col '>
 
-      <div className='flex justify-center items-center '>
+      <div id='skills' className='flex justify-center items-center '>
         <h2 className={`${lato.className} border-b-4  border-indigo-500 text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl pb-2 sm:pb-4 mt-4`}>My Skills</h2>
       </div>
 

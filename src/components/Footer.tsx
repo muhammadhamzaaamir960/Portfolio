@@ -12,11 +12,12 @@ const lato = Lato({
 });
 
 function Footer() {
+
   return (
-   <footer className=' min-h-screen w-full bg-gray-100 flex flex-col flex-wrap '>
+   <footer  className=' min-h-screen w-full bg-gray-100 flex flex-col flex-wrap '>
     
     <div className='flex justify-center items-center '>
-        <h2 className={`${lato.className} border-b-4  border-indigo-500 text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl pb-2 sm:pb-4 mt-4`}>Hire Me ...</h2>
+        <h2 id='hireme'  className={`${lato.className} border-b-4  border-indigo-500 text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl pb-2 sm:pb-4 mt-4`}>Hire Me ...</h2>
      </div>
 
         <div className='flex justify-center mt-20 flex-wrap gap-x-32 gap-y-10 mb-10 '>
@@ -46,10 +47,10 @@ function Footer() {
               <input type="email" name='Email' size={40} placeholder='Email' required className='outline-0 placeholder:text-gray-600 border border-black rounded  p-2 hidden sm:block' />
               <input type="text" name='Name' size={10} placeholder='Name' required className='outline-0 placeholder:text-gray-600 border border-black rounded  sm:hidden block px-2 ' />
               <input type="email" name='Email' size={10}  placeholder='Email' required className='outline-0 placeholder:text-gray-600 border border-black rounded  sm:hidden block px-2' />
-
               <textarea name='Message'  typeof='text' placeholder='Message' rows={3} cols={20}
-              className='outline-0 p-2 max-h-64 placeholder:text-gray-600 border border-black rounded '>Message</textarea>
+              className='outline-0 p-2 max-h-64 placeholder:text-gray-600 border border-black rounded '></textarea>
               <button type='submit' className='text-xl rounded-full font-medium border border-black hover:bg-indigo-500 hover:duration-500 hover:delay-100  bg-indigo-400'>Send</button>
+              
             </form>
           </div>
     </div>

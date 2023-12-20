@@ -16,9 +16,9 @@ const mont = Lato({
 
 function About() {
   return (
-    <section className='w-full bg-white min-h-[300px] flex flex-col items-center'>
+    <section  className='w-full bg-white min-h-[300px] flex flex-col items-center'>
 
-      <div className='flex justify-center  items-center '>
+      <div id='about' className='flex justify-center  items-center '>
         <h2 className={`${lato.className} border-b-4  border-indigo-500 text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl pb-2 sm:pb-4 mt-4`}>About Me</h2>
       </div>
 
